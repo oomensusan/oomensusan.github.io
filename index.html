@@ -288,6 +288,64 @@
             color: #ffffff;
         }
 
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 14, 39, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px 0;
+            z-index: 1000;
+            border-bottom: 1px solid #2d3748;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #a0aec0;
+            text-decoration: none;
+            font-size: 0.95em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #64ffda;
+        }
+
+        .download-btn {
+            background: transparent;
+            border: 1px solid #64ffda;
+            color: #64ffda;
+            padding: 8px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background: rgba(100, 255, 218, 0.1);
+        }
+
+        .content {
+            margin-top: 60px;
+        }
+
         .learning-platforms {
             display: flex;
             gap: 20px;
